@@ -6,5 +6,7 @@ function verificar() {
     var res = document.querySelector('div#res')
 
 
-
+    if (fano.value.length == 0 || fano.value > ano) {
+        window.alert("[ERROR] Digite os campos novamente!")
+    } 
 }
